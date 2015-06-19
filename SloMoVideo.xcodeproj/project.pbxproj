@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E482C91B34B0200069FC58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E482C81B34B0200069FC58 /* AppDelegate.swift */; };
+		37E482CB1B34B0200069FC58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E482CA1B34B0200069FC58 /* ViewController.swift */; };
+		37E482CE1B34B0200069FC58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E482CC1B34B0200069FC58 /* Main.storyboard */; };
+		37E482D01B34B0200069FC58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E482CF1B34B0200069FC58 /* Assets.xcassets */; };
+		37E482D31B34B0200069FC58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E482D11B34B0200069FC58 /* LaunchScreen.storyboard */; };
+		37E482DE1B34B0210069FC58 /* SloMoVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E482DD1B34B0210069FC58 /* SloMoVideoTests.swift */; };
+		37E482E91B34B0210069FC58 /* SloMoVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E482E81B34B0210069FC58 /* SloMoVideoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E482DA1B34B0210069FC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E482BD1B34B0200069FC58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E482C41B34B0200069FC58;
+			remoteInfo = SloMoVideo;
+		};
+		37E482E51B34B0210069FC58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E482BD1B34B0200069FC58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E482C41B34B0200069FC58;
+			remoteInfo = SloMoVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37E482C51B34B0200069FC58 /* SloMoVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SloMoVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E482C81B34B0200069FC58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37E482CA1B34B0200069FC58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37E482CD1B34B0200069FC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37E482CF1B34B0200069FC58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E482D21B34B0200069FC58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37E482D41B34B0200069FC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E482D91B34B0210069FC58 /* SloMoVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SloMoVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E482DD1B34B0210069FC58 /* SloMoVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SloMoVideoTests.swift; sourceTree = "<group>"; };
+		37E482DF1B34B0210069FC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E482E41B34B0210069FC58 /* SloMoVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SloMoVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E482E81B34B0210069FC58 /* SloMoVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SloMoVideoUITests.swift; sourceTree = "<group>"; };
+		37E482EA1B34B0210069FC58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E482C21B34B0200069FC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E482D61B34B0210069FC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E482E11B34B0210069FC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E482BC1B34B0200069FC58 = {
+			isa = PBXGroup;
+			children = (
+				37E482C71B34B0200069FC58 /* SloMoVideo */,
+				37E482DC1B34B0210069FC58 /* SloMoVideoTests */,
+				37E482E71B34B0210069FC58 /* SloMoVideoUITests */,
+				37E482C61B34B0200069FC58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37E482C61B34B0200069FC58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E482C51B34B0200069FC58 /* SloMoVideo.app */,
+				37E482D91B34B0210069FC58 /* SloMoVideoTests.xctest */,
+				37E482E41B34B0210069FC58 /* SloMoVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E482C71B34B0200069FC58 /* SloMoVideo */ = {
+			isa = PBXGroup;
+			children = (
+				37E482C81B34B0200069FC58 /* AppDelegate.swift */,
+				37E482CA1B34B0200069FC58 /* ViewController.swift */,
+				37E482CC1B34B0200069FC58 /* Main.storyboard */,
+				37E482CF1B34B0200069FC58 /* Assets.xcassets */,
+				37E482D11B34B0200069FC58 /* LaunchScreen.storyboard */,
+				37E482D41B34B0200069FC58 /* Info.plist */,
+			);
+			path = SloMoVideo;
+			sourceTree = "<group>";
+		};
+		37E482DC1B34B0210069FC58 /* SloMoVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E482DD1B34B0210069FC58 /* SloMoVideoTests.swift */,
+				37E482DF1B34B0210069FC58 /* Info.plist */,
+			);
+			path = SloMoVideoTests;
+			sourceTree = "<group>";
+		};
+		37E482E71B34B0210069FC58 /* SloMoVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37E482E81B34B0210069FC58 /* SloMoVideoUITests.swift */,
+				37E482EA1B34B0210069FC58 /* Info.plist */,
+			);
+			path = SloMoVideoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E482C41B34B0200069FC58 /* SloMoVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E482ED1B34B0210069FC58 /* Build configuration list for PBXNativeTarget "SloMoVideo" */;
+			buildPhases = (
+				37E482C11B34B0200069FC58 /* Sources */,
+				37E482C21B34B0200069FC58 /* Frameworks */,
+				37E482C31B34B0200069FC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SloMoVideo;
+			productName = SloMoVideo;
+			productReference = 37E482C51B34B0200069FC58 /* SloMoVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37E482D81B34B0210069FC58 /* SloMoVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E482F01B34B0210069FC58 /* Build configuration list for PBXNativeTarget "SloMoVideoTests" */;
+			buildPhases = (
+				37E482D51B34B0210069FC58 /* Sources */,
+				37E482D61B34B0210069FC58 /* Frameworks */,
+				37E482D71B34B0210069FC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E482DB1B34B0210069FC58 /* PBXTargetDependency */,
+			);
+			name = SloMoVideoTests;
+			productName = SloMoVideoTests;
+			productReference = 37E482D91B34B0210069FC58 /* SloMoVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37E482E31B34B0210069FC58 /* SloMoVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E482F31B34B0210069FC58 /* Build configuration list for PBXNativeTarget "SloMoVideoUITests" */;
+			buildPhases = (
+				37E482E01B34B0210069FC58 /* Sources */,
+				37E482E11B34B0210069FC58 /* Frameworks */,
+				37E482E21B34B0210069FC58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E482E61B34B0210069FC58 /* PBXTargetDependency */,
+			);
+			name = SloMoVideoUITests;
+			productName = SloMoVideoUITests;
+			productReference = 37E482E41B34B0210069FC58 /* SloMoVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E482BD1B34B0200069FC58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "TimesToCome Mobile";
+				TargetAttributes = {
+					37E482C41B34B0200069FC58 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					37E482D81B34B0210069FC58 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 37E482C41B34B0200069FC58;
+					};
+					37E482E31B34B0210069FC58 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 37E482C41B34B0200069FC58;
+					};
+				};
+			};
+			buildConfigurationList = 37E482C01B34B0200069FC58 /* Build configuration list for PBXProject "SloMoVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E482BC1B34B0200069FC58;
+			productRefGroup = 37E482C61B34B0200069FC58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E482C41B34B0200069FC58 /* SloMoVideo */,
+				37E482D81B34B0210069FC58 /* SloMoVideoTests */,
+				37E482E31B34B0210069FC58 /* SloMoVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E482C31B34B0200069FC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E482D31B34B0200069FC58 /* LaunchScreen.storyboard in Resources */,
+				37E482D01B34B0200069FC58 /* Assets.xcassets in Resources */,
+				37E482CE1B34B0200069FC58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E482D71B34B0210069FC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E482E21B34B0210069FC58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E482C11B34B0200069FC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E482CB1B34B0200069FC58 /* ViewController.swift in Sources */,
+				37E482C91B34B0200069FC58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E482D51B34B0210069FC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E482DE1B34B0210069FC58 /* SloMoVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E482E01B34B0210069FC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E482E91B34B0210069FC58 /* SloMoVideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E482DB1B34B0210069FC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E482C41B34B0200069FC58 /* SloMoVideo */;
+			targetProxy = 37E482DA1B34B0210069FC58 /* PBXContainerItemProxy */;
+		};
+		37E482E61B34B0210069FC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E482C41B34B0200069FC58 /* SloMoVideo */;
+			targetProxy = 37E482E51B34B0210069FC58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37E482CC1B34B0200069FC58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E482CD1B34B0200069FC58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37E482D11B34B0200069FC58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E482D21B34B0200069FC58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E482EB1B34B0210069FC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E482EC1B34B0210069FC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E482EE1B34B0210069FC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SloMoVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timestocomemobile.SloMoVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		37E482EF1B34B0210069FC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SloMoVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timestocomemobile.SloMoVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		37E482F11B34B0210069FC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SloMoVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timestocomemobile.SloMoVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SloMoVideo.app/SloMoVideo";
+			};
+			name = Debug;
+		};
+		37E482F21B34B0210069FC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SloMoVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timestocomemobile.SloMoVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SloMoVideo.app/SloMoVideo";
+			};
+			name = Release;
+		};
+		37E482F41B34B0210069FC58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SloMoVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timestocomemobile.SloMoVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SloMoVideo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		37E482F51B34B0210069FC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SloMoVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timestocomemobile.SloMoVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SloMoVideo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E482C01B34B0200069FC58 /* Build configuration list for PBXProject "SloMoVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E482EB1B34B0210069FC58 /* Debug */,
+				37E482EC1B34B0210069FC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E482ED1B34B0210069FC58 /* Build configuration list for PBXNativeTarget "SloMoVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E482EE1B34B0210069FC58 /* Debug */,
+				37E482EF1B34B0210069FC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37E482F01B34B0210069FC58 /* Build configuration list for PBXNativeTarget "SloMoVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E482F11B34B0210069FC58 /* Debug */,
+				37E482F21B34B0210069FC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37E482F31B34B0210069FC58 /* Build configuration list for PBXNativeTarget "SloMoVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E482F41B34B0210069FC58 /* Debug */,
+				37E482F51B34B0210069FC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E482BD1B34B0200069FC58 /* Project object */;
+}
